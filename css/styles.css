@@ -750,7 +750,7 @@ h6 {
   font-size: 12px;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: inline-block;
+  display: block;
   margin-bottom: 4px;
   line-height: 1.17;
 }
@@ -812,6 +812,9 @@ h6 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
 
 .modal-chek:checked + .check-text .check-element {
